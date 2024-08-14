@@ -36,7 +36,7 @@ const Skills = () => {
 },
 {title:'Flutter',
   icon:<i className="fa-brands fa-flutter"></i>,
-  desc:'I learned Flutter approximately 2 years ago. I have also done an internship in Flutter Development for 3 months.'
+  desc:'I learned Flutter approximately 2 years ago. I have also done an internship in Flutter Development for 2 months.'
 },
 {
   title:'Node',

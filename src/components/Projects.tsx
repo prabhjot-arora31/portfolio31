@@ -34,10 +34,10 @@ const Projects = () => {
   return (
     <div>
     <h1 className="font-bold text-2xl mb-7 text-center">Projects</h1>
-        <div className='flex justify-center space-x-10   flex-wrap items-center space-y-7'>
+        <div className='flex justify-center    flex-wrap items-center'>
             {
                 projects.map((ele,id)=>{
-                    return <Card style={{maxWidth:'400px',position:'relative' , top:`${id == 0 ? '14px' : 0}` , left:`${id != 0 ? '-20px' : 0}` }} key={id}>
+                    return <Card style={{maxWidth:'400px',marginRight:"0.89rem" , marginBottom:'0.89rem' }} key={id}>
                         <Image alt='project image' src={require(`../${ele.img}`)} style={{overflow:'hidden',borderRadius:"10px"}}/>
                         <CardHeader className='font-bold text-xl'>{ele.title}</CardHeader>
                         <CardContent>
