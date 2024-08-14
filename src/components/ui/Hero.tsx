@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 const Hero = () => {
   return (
-    <div className='flex px-10 pb-5 justify-center space-x-14 flex-wrap space-y-10 items-center'>
+    <div className='flex pb-5 justify-center flex-wrap space-y-10 items-center'>
         <div>
             <Image alt='profile image' width={350} style={{borderRadius:'50%'}} src={require('../../profile.png')}/>
         </div>

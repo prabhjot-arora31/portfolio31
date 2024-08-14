@@ -57,14 +57,12 @@ const components: { title: string; href: string; description: string }[] = [
 
 export function Header() {
   return (
-    <div  className="p-5 flex justify-center flex-wrap  space-x-14 items-center" >
-    <NavigationMenu className="mb-5 relative top-2">
-      <NavigationMenuList>
-        <NavigationMenuItem>
-          <h4 className="font-bold uppercase">Portfolio</h4>
-        </NavigationMenuItem>
-      </NavigationMenuList>
-    </NavigationMenu>
+    <>
+    
+        <h2 className="font-bold text-center mt-5 text-[#0895A1] uppercase">Portfolio</h2>
+     
+    <div  className="p-5 flex justify-center flex-wrap items-center" >
+   
     <div className=" flex">
         <Button variant={'custom'}   size={'sm'}>Home</Button>
         <Button className="ml-5" variant={'custom'}  size='sm'>Skills</Button>
@@ -72,6 +70,7 @@ export function Header() {
         <Button className="ml-5" variant={'custom'}  size='sm'>Contact</Button>
     </div>
     </div>
+    </>
   )
 }
 
