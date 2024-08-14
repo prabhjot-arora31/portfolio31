@@ -67,8 +67,8 @@ const Skills = () => {
       {
         skills.map((ele,id)=>{
           return (
-          <div style={{marginRight:'0.87rem', marginBottom:'0.7rem'}}>
-          <Drawer key={id}>
+          <div  key={id} style={{marginRight:'0.87rem', marginBottom:'0.7rem'}}>
+          <Drawer>
             <DrawerTrigger asChild>
               <Button variant='custom2'>{ele.title} &nbsp; {ele.icon}</Button>
             </DrawerTrigger>

@@ -3,6 +3,7 @@ import React from 'react'
 import { Button } from './button'
 import { DownloadIcon } from 'lucide-react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const Hero = () => {
   return (
@@ -20,7 +21,7 @@ const Hero = () => {
                 <Button className='hover:bg-[#0895A1] hover:text-[#20242D] text-[#0895A1]' style={{borderRadius:"50%",border:'1px solid #0895A1',width:'40px',height:'40px'}}><i className="fa-brands fa-instagram"  ></i></Button>
                 <Button className='hover:bg-[#0895A1] hover:text-[#20242D] text-[#0895A1]' style={{borderRadius:"50%",border:'1px solid #0895A1',width:'40px',height:'40px'}}><i className="fa-brands fa-github"  ></i></Button>
                 </div>
-            <Button style={{backgroundColor:"#0895A1",color:'black',boxShadow:'3px 3px 20px #0895A1'}}>Download Resume  &nbsp;  <DownloadIcon /></Button>
+            <a href={require('../../prabhjot_resume.pdf')} style={{backgroundColor:"#0895A1",color:'black',boxShadow:'3px 3px 20px #0895A1'}}>Download Resume  &nbsp;  <DownloadIcon /></a>
         </div>
         
     </div>
