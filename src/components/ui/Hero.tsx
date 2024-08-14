@@ -11,7 +11,7 @@ const Hero = () => {
             <Image width={350} style={{borderRadius:'50%'}} src={require('../../profile.png')}/>
         </div>
         <div>
-            <h3 className='font-bold text-xl leading-4'>Hey there! It's me </h3>
+            <h3 className='font-bold text-xl leading-4'>Hey there! It&rsquo;s me </h3>
             <h1 className='text-4xl leading-tight'><b>Prabhjot Arora</b></h1>
             <h2 className='font-bold text-xl'>And I am a <span style={{color:'#0895A1'}}>Full Stack Developer</span></h2>
             <p className='mt-10 text-md mb-7'>I am an MCA Student. I love designing and developing web and mobile applications. </p>
