@@ -63,10 +63,12 @@ const Skills = () => {
           <CardHeader>
             <CardTitle>Technical</CardTitle>
             <CardDescription>
-            <div className="mt-5 flex space-x-4 flex-wrap space-y-2 justify-center items-center">
+            <div  className="mt-5 flex  flex-wrap  justify-center items-center" >
       {
         skills.map((ele,id)=>{
-          return (<Drawer key={id}>
+          return (
+          <div style={{marginRight:'0.87rem', marginBottom:'0.7rem'}}>
+          <Drawer key={id}>
             <DrawerTrigger asChild>
               <Button variant='custom2'>{ele.title} &nbsp; {ele.icon}</Button>
             </DrawerTrigger>
@@ -83,7 +85,7 @@ const Skills = () => {
                 </DrawerClose>
               </DrawerFooter>
             </DrawerContent>
-          </Drawer>)
+          </Drawer></div>)
         })
       }
       </div>
@@ -96,10 +98,10 @@ const Skills = () => {
           <CardHeader>
             <CardTitle>Soft</CardTitle>
             <CardDescription>
-            <div className="mt-5 flex space-x-4 flex-wrap space-y-2 justify-center items-center">
-      <Button variant='custom2'>Good listener</Button>
-      <Button variant='custom2'>Keen Oberver</Button>
-      <Button variant='custom2'>Problem Solver</Button>
+            <div className="mt-5 flex flex-wrap  justify-center items-center">
+      <Button variant='custom2' style={{marginRight:'0.87rem', marginBottom:'0.7rem'}}>Good listener</Button>
+      <Button variant='custom2' style={{marginRight:'0.87rem', marginBottom:'0.7rem'}}>Keen Oberver</Button>
+      <Button variant='custom2' style={{marginRight:'0.87rem'}}>Problem Solver</Button>
     </div>
             </CardDescription>
           </CardHeader>
