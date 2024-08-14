@@ -65,8 +65,8 @@ const Skills = () => {
             <CardDescription>
             <div className="mt-5 flex space-x-4 flex-wrap space-y-2 justify-center items-center">
       {
-        skills.map((ele)=>{
-          return (<Drawer>
+        skills.map((ele,id)=>{
+          return (<Drawer key={id}>
             <DrawerTrigger asChild>
               <Button variant='custom2'>{ele.title} &nbsp; {ele.icon}</Button>
             </DrawerTrigger>
