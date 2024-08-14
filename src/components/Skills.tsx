@@ -21,30 +21,30 @@ import { Card, CardDescription, CardHeader, CardTitle } from "./ui/card";
 const Skills = () => {
   const [tabClick, setTabClick] = useState(1)
   const skills = [{
-    icon:<i class="fa-brands fa-react"></i>,
+    icon:<i className="fa-brands fa-react"></i>,
     title:'React',
     desc:'I have been working on React for over 2.5 years. I have made many small and huge projects based on React.'
   },
 {
-  icon:<i class="fa-brands fa-js"></i>,
+  icon:<i className="fa-brands fa-js"></i>,
   title:'JavaScript',
   desc:'I have more than 3 years of experience in JavaScript. I have made many working and fun projects using HTML,CSS and Vanilla JavaScript.'
 },{
   title:'Redux',
-  icon:<i class="fa-solid fa-gear"></i>,
+  icon:<i className="fa-solid fa-gear"></i>,
   desc:'I recently started learning Redux have have a clear understanding of its architecture. I made 1 major project which includes Redux as a state management library.'
 },
 {title:'Flutter',
-  icon:<i class="fa-brands fa-flutter"></i>,
+  icon:<i className="fa-brands fa-flutter"></i>,
   desc:'I learned Flutter approximately 2 years ago. I have also done an internship in Flutter Development for 3 months.'
 },
 {
   title:'Node',
-  icon:<i class="fa-brands fa-node-js"></i>,
+  icon:<i className="fa-brands fa-node-js"></i>,
   desc:'I also have experience in backend development using NodeJs and Express. I made 2 major projects in NodeJs.'
 },
 {
-  icon:<i class="fa-solid fa-code"></i>
+  icon:<i className="fa-solid fa-code"></i>
 ,
   title:'Programming languages',
   desc:'I learned the following programming languages , C,C++,Java,Python,C#,Dart and more.'

@@ -38,7 +38,7 @@ const Projects = () => {
             {
                 projects.map((ele,id)=>{
                     return <Card style={{maxWidth:'400px',position:'relative' , top:`${id == 0 ? '14px' : 0}` , left:`${id != 0 ? '-20px' : 0}` }} key={id}>
-                        <Image src={require(`../${ele.img}`)} style={{overflow:'hidden',borderRadius:"10px"}}/>
+                        <Image alt='project image' src={require(`../${ele.img}`)} style={{overflow:'hidden',borderRadius:"10px"}}/>
                         <CardHeader className='font-bold text-xl'>{ele.title}</CardHeader>
                         <CardContent>
                             <CardDescription>{ele.desc}</CardDescription>
