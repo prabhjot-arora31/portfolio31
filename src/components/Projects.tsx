@@ -88,7 +88,7 @@ https://github.com/prabhjot-arora31/SOCIO_APP_BACKEND`
                             </Button> 
                             <Dialog>
   <DialogTrigger style={{marginTop:'0.7rem',border:'2px solid #0895A1',boxShadow:'0 0 13px #0895A1',backgroundColor:'#20242D',color:'white' , paddingTop:'0.38rem' , paddingBottom:'0.38rem' }} className='ml-5 px-4 rounded' >Know more</DialogTrigger>
-  <DialogContent className='bg-[#20242D] text-white mx-4' style={{maxWidth:'300px'}}>
+  <DialogContent className='bg-[#20242D] text-white' style={{maxWidth:'300px'}}>
     <DialogHeader>
       <DialogTitle>{ele.title}</DialogTitle>
       <DialogDescription>
