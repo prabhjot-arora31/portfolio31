@@ -81,7 +81,7 @@ https://github.com/prabhjot-arora31/SOCIO_APP_BACKEND`
                         <CardHeader className='font-bold text-xl text-white' >{ele.title}</CardHeader>
                         <CardContent>
                             <CardDescription style={{color:'white'}}>{ele.desc}</CardDescription>
-                         <div><Button size={'sm'} style={{marginTop:'0.7rem',backgroundColor:'#0895A1',boxShadow:'0 0 22px #0895A1',color:'#20242D'}} onClick={()=>{
+                         <div><Button size={'sm'} style={{marginTop:'0.7rem',backgroundColor:'#0895A1',boxShadow:'0 0 22px white',color:'#20242D'}} onClick={()=>{
                             window.open(ele.url,'_blank')
                          }}>
                              Live URL
