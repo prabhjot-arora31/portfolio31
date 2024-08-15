@@ -27,10 +27,10 @@ export function Header() {
     <div  className="p-5 flex justify-center flex-wrap items-center" >
    
     <div className=" flex">
-        <Link href='' style={{backgroundColor:"#0895A1" , color:'white' , paddingLeft:'0.7rem',paddingRight:'0.7rem',paddingTop:"0.2rem", borderRadius:'5px'  ,paddingBottom:'0.2rem'}} >Home</Link>
-        <Link href='#skill' className="ml-5"  style={{, color:'white' , paddingLeft:'0.7rem',paddingRight:'0.7rem',paddingTop:"0.2rem", borderRadius:'5px'  ,paddingBottom:'0.2rem'}}>Skills</Link>
-        <Link href='#project' className="ml-5"  style={{, color:'white' , paddingLeft:'0.7rem',paddingRight:'0.7rem',paddingTop:"0.2rem", borderRadius:'5px'  ,paddingBottom:'0.2rem'}}>Projects</Link>
-        <Link href= '#contact'  className="ml-5"  style={{, color:'white' , paddingLeft:'0.7rem',paddingRight:'0.7rem',paddingTop:"0.2rem", borderRadius:'5px'  ,paddingBottom:'0.2rem'}}>Contact</Link>
+        <Link href='' style={{color:'white' , paddingLeft:'0.7rem',paddingRight:'0.7rem',paddingTop:"0.2rem", borderRadius:'5px'  ,paddingBottom:'0.2rem'}} >Home</Link>
+        <Link href='#skill' className="ml-5"  style={{ color:'white' , paddingLeft:'0.7rem',paddingRight:'0.7rem',paddingTop:"0.2rem", borderRadius:'5px'  ,paddingBottom:'0.2rem'}}>Skills</Link>
+        <Link href='#project' className="ml-5"  style={{color:'white' , paddingLeft:'0.7rem',paddingRight:'0.7rem',paddingTop:"0.2rem", borderRadius:'5px'  ,paddingBottom:'0.2rem'}}>Projects</Link>
+        <Link href= '#contact'  className="ml-5"  style={{color:'white' , paddingLeft:'0.7rem',paddingRight:'0.7rem',paddingTop:"0.2rem", borderRadius:'5px'  ,paddingBottom:'0.2rem'}}>Contact</Link>
     </div>
     </div>
     </>
