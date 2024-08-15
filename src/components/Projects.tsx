@@ -12,6 +12,7 @@ import {
     DialogTitle,
     DialogTrigger,
   } from "@/components/ui/dialog"
+import { Drawer, DrawerClose, DrawerContent, DrawerDescription, DrawerFooter, DrawerHeader, DrawerTitle, DrawerTrigger } from './ui/drawer'
 const Projects = () => {
     const projects = [{
         title:'iNotes [Web App]',
@@ -86,7 +87,7 @@ https://github.com/prabhjot-arora31/SOCIO_APP_BACKEND`
                          }}>
                              Live URL
                             </Button> 
-                            <Dialog>
+                            {/* <Dialog>
   <DialogTrigger style={{marginTop:'0.7rem',border:'2px solid #0895A1',boxShadow:'0 0 13px #0895A1',backgroundColor:'#20242D',color:'white' , paddingTop:'0.38rem' , paddingBottom:'0.38rem' }} className='ml-5 px-4 rounded' >Know more</DialogTrigger>
   <DialogContent className='bg-[#20242D] text-white' style={{maxWidth:'325px'}}>
     <DialogHeader>
@@ -96,7 +97,25 @@ https://github.com/prabhjot-arora31/SOCIO_APP_BACKEND`
       </DialogDescription>
     </DialogHeader>
   </DialogContent>
-</Dialog>
+</Dialog> */}
+<Drawer>
+            <DrawerTrigger asChild>
+              <Button variant='custom2'>{ele.title}</Button>
+            </DrawerTrigger>
+            <DrawerContent style={{backgroundColor:'#0895A1'}}>
+              <div className="mx-auto w-full max-w-sm">
+                <DrawerHeader>
+                  <DrawerTitle>{ele.title}</DrawerTitle>
+                  <DrawerDescription className="font-bold text-black">{ele.detail}</DrawerDescription>
+                </DrawerHeader>
+              </div>
+              <DrawerFooter>
+                <DrawerClose asChild>
+                  <Button style={{maxWidth:'120px' , margin:'0 auto'}}>Cancel</Button>
+                </DrawerClose>
+              </DrawerFooter>
+            </DrawerContent>
+          </Drawer>
 
                             </div>
                         </CardContent>
