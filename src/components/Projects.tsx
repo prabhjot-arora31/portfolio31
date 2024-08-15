@@ -91,7 +91,7 @@ https://github.com/prabhjot-arora31/SOCIO_APP_BACKEND`
   <DialogContent className='bg-[#20242D] text-white' style={{maxWidth:'300px'}}>
     <DialogHeader>
       <DialogTitle>{ele.title}</DialogTitle>
-      <DialogDescription>
+      <DialogDescription className='text-white'>
        {ele.detail}
       </DialogDescription>
     </DialogHeader>
