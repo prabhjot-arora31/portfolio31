@@ -75,8 +75,8 @@ request and chat with there connections`,'The chats and posts are saved in real 
 }
 ]
   return (
-    <div>
-    <h1 className="font-bold text-2xl mb-7 text-center">Projects</h1>
+    <div id='project'>
+    <h1 className="font-bold text-2xl mb-7 text-center text-[#0895A1]">Projects</h1>
         <div className='flex justify-center    flex-wrap items-center'>
             {
                 projects.map((ele,id)=>{

@@ -1,4 +1,5 @@
 
+import Contact from "../components/Contact";
 import { Header } from "@/components/Header";
 import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
@@ -19,6 +20,9 @@ export default function Home() {
       </Card>
       <Card className="container mt-10 card p-5" style={{ backgroundColor:'#20242D',color:'white',borderColor:'black',boxShadow:'0px  0px 33px white'}}>
         <Projects />
+</Card>
+<Card className="container mt-10 card p-5" style={{ backgroundColor:'#20242D',color:'white',borderColor:'black',boxShadow:'0px  0px 33px white'}}>
+  <Contact/>
 </Card>
     </div>
   );

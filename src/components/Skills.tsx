@@ -50,8 +50,8 @@ const Skills = () => {
   desc:'I learned the following programming languages , C,C++,Java,Python,C#,Dart and more.'
 }
 ]
-  return <div className="p-10">
-    <h1 className="font-bold text-2xl mb-7 text-center">Skills</h1>
+  return <div className="p-10" id='skill'>
+    <h1 className="font-bold text-2xl mb-7 text-center text-[#0895A1]">Skills</h1>
     
    <div className="w-full flex justify-center">
    <Tabs defaultValue="technical" className="w-[400px]">
