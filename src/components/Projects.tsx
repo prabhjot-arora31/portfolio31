@@ -81,13 +81,13 @@ https://github.com/prabhjot-arora31/SOCIO_APP_BACKEND`
                         <CardHeader className='font-bold text-xl text-white' >{ele.title}</CardHeader>
                         <CardContent>
                             <CardDescription style={{color:'white'}}>{ele.desc}</CardDescription>
-                         <div><Button size={'sm'} style={{marginTop:'0.7rem',backgroundColor:'#0895A1',boxShadow:'0 0 22px white',color:'#20242D'}} onClick={()=>{
+                         <div><Button size={'sm'} style={{marginTop:'0.7rem',backgroundColor:'#0895A1',boxShadow:'0 0 13px white',color:'#20242D'}} onClick={()=>{
                             window.open(ele.url,'_blank')
                          }}>
                              Live URL
                             </Button> 
                             <Dialog>
-  <DialogTrigger style={{marginTop:'0.7rem',border:'2px solid #0895A1',boxShadow:'0 0 17px white',backgroundColor:'#20242D',color:'white' , paddingTop:'0.38rem' , paddingBottom:'0.38rem' }} className='ml-5 px-4 rounded' >Know more</DialogTrigger>
+  <DialogTrigger style={{marginTop:'0.7rem',border:'2px solid #0895A1',boxShadow:'0 0 13px white',backgroundColor:'#20242D',color:'white' , paddingTop:'0.38rem' , paddingBottom:'0.38rem' }} className='ml-5 px-4 rounded' >Know more</DialogTrigger>
   <DialogContent className='bg-[#20242D] text-white mx-4' style={{maxWidth:'300px'}}>
     <DialogHeader>
       <DialogTitle>{ele.title}</DialogTitle>
