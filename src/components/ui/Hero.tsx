@@ -17,7 +17,7 @@ const Hero = () => {
             <h2 className='font-bold text-xl'>And I am a <span style={{color:'#0895A1'}}>Full Stack Developer</span></h2>
             <p className='mt-10 text-md mb-7'>I am an MCA student with a passion for designing and developing web and mobile applications. </p>
             <div className='mb-5 flex space-x-4'>
-                <Button className='hover:bg-[#0895A1] hover:text-[#20242D] text-[#0895A1]' style={{borderRadius:"50%",border:'1px solid #0895A1',width:'40px',height:'40px'}}><i className="fa-brands fa-linkedin-in"  ></i></Button>
+                <Link to='https://linkedin.com/in/prabhjot-arora' className='hover:bg-[#0895A1] hover:text-[#20242D] text-[#0895A1]' style={{borderRadius:"50%",border:'1px solid #0895A1',width:'40px',height:'40px'}}><i className="fa-brands fa-linkedin-in"  ></i></Link>
                 <Button className='hover:bg-[#0895A1] hover:text-[#20242D] text-[#0895A1]' style={{borderRadius:"50%",border:'1px solid #0895A1',width:'40px',height:'40px'}}><i className="fa-brands fa-instagram"  ></i></Button>
                 <Button className='hover:bg-[#0895A1] hover:text-[#20242D] text-[#0895A1]' style={{borderRadius:"50%",border:'1px solid #0895A1',width:'40px',height:'40px'}}><i className="fa-brands fa-github"  ></i></Button>
                 </div>
